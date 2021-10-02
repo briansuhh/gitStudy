@@ -1,0 +1,26 @@
+#set system user and email
+sudo git config --system user.name "dev sys"
+sudo git config --system user.email "brianmaysebastian@gmail.com"
+
+#set global user and email
+sudo git config --global user.name "dev global"
+sudo git config --global user.email "brianmaysebastian@gmail.com"
+
+#make directory
+cd /
+mkdir local && cd local
+mkdir repository && cd repository
+
+#initialize git
+sudo git init
+
+#set local user and email
+sudo git config --local user.name "brian local"
+sudo git config --local user.email "brianmaysebastian@gmail.com"
+
+#set default branch to master
+sudo git config --global init.defaultBranch master
+
+#set nano as a default editor
+sudo git config --global core.editor "nano"
+
