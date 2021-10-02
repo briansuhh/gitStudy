@@ -1,4 +1,4 @@
 this is my first time on configuring git. hope i can be a pro at this. wish me luck
 updating this text file using "sudo nano simplefile.txt"
 nxt update with the stash command
-
+codechanges using gitBRanch 
