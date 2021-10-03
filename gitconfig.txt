@@ -47,7 +47,7 @@ git branch - to see the branches
 git checkout - to switch to different branches
 git stash - stash any process to the stash (stash save *nameofstash*, stash list, stash apply, stash drop, stash pop)
 git stash pop - combination of git stash apply and git stash drop
-git remote - git remote add github https://github.com/briansuhh/gitStudy
+git remote - git remote add github https://github.com/briansuhh/gitStudy (remote show)
 git push - upload file from the local repo to the remote repository
 git pull - reverse git push
 
