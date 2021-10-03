@@ -18,11 +18,23 @@ sudo git init
 sudo git config --local user.name "brian local"
 sudo git config --local user.email "brianmaysebastian@gmail.com"
 
-#set default branch to master
+#set default branch to master or main 
 sudo git config --global init.defaultBranch master
 
 #set nano as a default editor
 sudo git config --global core.editor "nano"
+
+#renaming of branch
+sudo git branch -M main
+
+#add github as remote repository
+sudo git remote add github https://github.com/briansuhh/gitStudy
+
+#sync (local to remote)
+sudo git push github main 
+
+#sync (remote to local)
+sudo git pull github main 
 
 #git cheatsheet
 git status - status of the git
@@ -34,4 +46,7 @@ git stage * - to stage the process
 git branch - to see the branches
 git checkout - to switch to different branches
 git stash - stash any process to the stash (stash save *nameofstash*, stash list, stash apply)
+git remote - git remote add github https://github.com/briansuhh/gitStudy
+git push - upload file from the local repo to the remote repository
+git pull - reverse git push
 
