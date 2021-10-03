@@ -24,3 +24,14 @@ sudo git config --global init.defaultBranch master
 #set nano as a default editor
 sudo git config --global core.editor "nano"
 
+#git cheatsheet
+git status - status of the git
+git log - to see all the commits done by any branch 
+git restore - to restore the state of a file (from staging to working)
+git reset - to reset the commits that you do not want
+git add . - to add the process to the staging part
+git stage * - to stage the process
+git branch - to see the branches
+git checkout - to switch to different branches
+git stash - stash any process to the stash (stash save *nameofstash*, stash list, stash apply)
+
