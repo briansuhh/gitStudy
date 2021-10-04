@@ -1,0 +1,36 @@
+#go to the directory /var/www/html
+cd /var/www/html
+
+#clone the repository on github
+sudo git clone https://github.com/jehy-security/bwapp
+
+#change the access permissions of the file recursively 
+sudo chmod -R 777 bwapp
+
+#start apache2 service
+sudo service apache2 start
+
+#start mysql service
+sudo service mysql start
+
+#edit the username and password that you want for mysql database
+cd /bwapp/bWAPP/admin
+nano settings.php
+
+#find this on the settings.php and change the user and password
+//$db_username = "root";
+//$db_password = "bug";
+$db_username = "brian";
+$db_password = "12345678";
+ 
+#setup of database
+sudo mysql
+CREATE USER 'brian'@'localhost' IDENTIFIED BY '12345678';
+grant all privileges on bWAPP.* to 'brian'@'localhost' identified by '12345678';
+
+#now go to firefox and go to 
+http://localhost/bwapp/bWAPP/install.php
+#click 'here' to install bwapp
+
+#now you're all good xdxd
+
