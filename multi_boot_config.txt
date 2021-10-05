@@ -1,0 +1,41 @@
+#donwload yumi v 2.0.6.9
+https://downzen.com/en/windows/yumi/download/2069/
+
+#download iso image file of kali linux live and kon boot 
+https://www.kali.org/get-kali/#kali-live
+https://getintopc.site/kon-boot-2in1-winos-and-macos-v2-7-free-download/
+
+#note
+-the iso file should not be placed on the flash drive that you will boot to avoid error in booting
+
+#kon-boot
+  #extract the kon-boot file into your pc
+  https://extract.me/
+
+  #open yumi to boot the drive with the image of kon-boot
+  -select the drive that you want to boot
+  -the drive should have no files in it because it will be formatted
+  -select the distribution on yumi (kon-boot free)
+  -select the iso files of kon-boot (it is located in Kon-Boot_2in1_WinOS_and_MacOS_v2.7\Kon-Boot 2in1 (WinOS & MacOS) v2.7 - Getintopc.com\Windows\kon-bootCD\kon-bootCD.iso)
+  -click "create"
+  -click "no" and "finish"
+  -go to Kon-Boot_2in1_WinOS_and_MacOS_v2.7\Kon-Boot 2in1 (WinOS & MacOS) v2.7 - Getintopc.com\Windows\kon-bootUSB\USBFILES
+  -copy the 2 files there (konboot.img and konbootOLD.img) into the folder of kon-boot on the booted flashdrive (multiboot\kon-bootCD)
+
+  #restart pc and open the BIOS (multiple clicks of f2)
+  -turn off secure boot
+  -select the booted flash drive 
+  -click save and exit
+  
+#kali-linux
+  #open yumi to boot the drive with the image of kali linux
+  -select the drive that you want to boot
+  -the drive should have no files in it because it will be formatted
+  -select the distribution on yumi (kali (penetration testing))
+  -select the iso files of 
+  -click "create"
+  -click "no" and "finish"
+  
+  #add persistence
+  -dowload aomei partition assistant (https://www.diskpart.com/)
+  -
