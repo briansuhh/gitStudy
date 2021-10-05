@@ -39,4 +39,13 @@ https://getintopc.site/kon-boot-2in1-winos-and-macos-v2-7-free-download/
   #add persistence
   -dowload aomei partition assistant (https://www.diskpart.com/)
   -https://drive.google.com/file/d/1wOpQCzRidOWIDVqSP-JOWmkebdMlxHKG/view
+  -open and the pdf and follow the steps 
+  -go to C:\Windows\System32\drivers\etc\
+  -edit the "hosts" file
+  -add the hosts of aomei 
+  127.0.0.1 www.aomeitech.com
+  127.0.0.1 aomeitech.com
+  -go back to aomei app and paste the registration key found on the pdf file
+  
+  
 
